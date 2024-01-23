@@ -1,8 +1,8 @@
-# CPE-593 (Applied Data Structures and Algorithms)
+# ECE-573 (Data Structures and Algorithms)
 
-## Install either g++ or Java
+## Install either g++ or clang++
 
-Your homework must compile either on [g++](../all/cpp.md) or [Java](../all/java.md), and the tools listed above will do that.  
+Your homework must compile either on [g++](../all/cpp.md), if you know rust come discuss with me. The tools listed above will do that.  
 
 You will need git, described above, in order to get the examples that I build in class each week.
 
