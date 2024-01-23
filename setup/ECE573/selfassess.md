@@ -1,8 +1,8 @@
-# Self Assessment of Programming Skills for CPE-593 Applied Data Structures and Algorithms
+# Self Assessment of Programming Skills for ECE-573 Applied Data Structures and Algorithms
 
-For this course you must be able to write C++ or Java code, and debug code if it does not work.
+For this course you must be able to write and debug C++ code.
 Each question contains code in both C++ and Java. Pick the language you know and attempt to solve.
-If you are not comfortable with this level of programming, please take C++ or Java before attempting CPE-593.
+If you are not comfortable with this level of programming, please study C++ before attempting ECE-573. I am conducting a review first week, and will record it for future classes. If that's enough to get you going, great.
 
 1. The following code should compute the sum 1 + 3 + ... + 51 but it is wrong. Fix the loop so it works, then rewrite it without an if statement so it is faster.
 
@@ -14,7 +14,7 @@ If you are not comfortable with this level of programming, please take C++ or Ja
       for (int i = 0; i < 51; i++)
         if (i % 2 == 0)
           sum = i;
-      cout << sum; // or in Java System.out.println(sum);
+      cout << sum << '\n';
       ```
 
 2. The following code crashes. Explain why.
@@ -24,16 +24,6 @@ If you are not comfortable with this level of programming, please take C++ or Ja
       int a[100];
       for (int i = 0; i < 10000; i++)
         cout << a[i] << '\n';
-    }
-    ```
-  
-    ```java
-    public class JavaArrayTest {
-      public static void main(String[] args) {
-        int[] a = new int[100];
-        for (int i = 0; i < 10000; i++)
-          System.out.println(a[i]);
-      }
     }
     ```
 
@@ -61,18 +51,5 @@ If you are not comfortable with this level of programming, please take C++ or Ja
     }
   ```
 
-Java
-
-```java
-public class TestIntList {
-  public static void main(String[] args) {
-    TestIntList a = new TestIntList(); // create an empty list with capacity 1
-    TestIntList b = new TestIntList(100); // create an empty list with capacity 100
-    for (int i = 0; i < 10; i++)
-      b.addEnd(i);
-    System.out.println(b); // should print 0 1 2 3 4 5 6 7 8 9
-  }
-}
-```
 
 ## [&larr; Return and Finish](readme.md)

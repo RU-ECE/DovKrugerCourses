@@ -14,7 +14,7 @@ If you are preparing to take one of the courses I teach, then I applaud you for 
 
 - &rarr; [CPE390](setup/CPE390/readme.md)
 - &rarr; [CPE553](setup/CPE553/readme.md)
-- &rarr; [CPE593](setup/CPE593/readme.md)
+- &rarr; [ECE573](setup/ECE573/readme.md)
 - &rarr; CPE800
 - &rarr; [EE552](setup/EE552/readme.md)
 
@@ -25,8 +25,8 @@ ___
 - [EE553 (C++)](https://github.com/stevensdeptece/CPE553-CPP)
 - [CPE390 (Microprocessor Systems)](https://github.com/stevensdeptece/CPE390)
 - [CPE552 (Java)](https://github.com/stevensdeptece/CPE552-Java)
-- [CPE593 (Applied Data Structures and Algorithms)](https://github.com/stevensdeptece/CPE593)
-- [CPE800 (Research Problem)](research.md)
+- [ECE573 (Applied Data Structures and Algorithms)](https://github.com/RU-ECE/ECE573)
+- [(Independent Research)](other/research.md)
 
 ## About Dov Kruger
 

@@ -12,7 +12,7 @@ All course syllabi were under the above directory in a folder called courseinfo.
 
 [Setup Software for my courses](setup/readme.md)
 
-Old videos for all my courses are located in a file called CourseVideos which is under the top directory.
+Old videos for all my courses are located in a file called CourseVideos which is under the top directory. Unfortunately these links are all Stevens and I cannot reach them. I will try to fix this.
 
 On the first day we will go over the rules, but all the rules are in the syllabi for each course, located in the courseinfo directory. Each course has its own syllabus with the specifics of materials, but they all share a common generic syllabus file with the grading rules.
 
@@ -38,11 +38,11 @@ Q: I want to take Java or C++.  I don’t have much programming background.  Can
 Q: I want to take data structures but don’t know much programming. May I?
 ```
 
-> A: For CPE593 Data structures, you must know either C++ or Java well.  If you do not, take a course in C++ or Java so you are prepared. You have been warned.
+> A: For ECE573 Data structures, you must know C++ and be able to debug your code when it (inevitably) crashes. You have been warned.
 If you have doubts of whether you can handle the class, there is a [self assessment](selfassess.md) so you can see whether you have the skills needed.
 
 ```bash
-Q: How do I know if I know C++ or Java well enough to take the data structures class?
+Q: How do I know if I know C++ well enough to take the data structures class?
 ```
 
 > A: Take the [self assessment](setup/CPE593/selfassess.md). If you pass, you know it well enough.
@@ -70,7 +70,7 @@ Q: If I do badly in a quiz or test can I have a retest?
 Q: Can I do a project to make up for a bad grade.
 ```
 
-> A: Most people who do badly on the tests are not capable of doing a project in the course material. Under certain conditions I will allow you to do a project which will earn you the right to take the test again, but the test will be harder than the original test. So if you are the kind of person who takes more time to absorb, and you are not a good test taker, but I can see that you are a very good programmer, and you are willing to put in significant extra work, then under limited circumstances this could give you a second chance. Most people who fail the course do not fall into this category. And this only works if you do it early. Asking me at the final if you can redo the entire semester, the answer is yes, you fail and take it again.
+> A: No. You get one chance to do the work.
 
 > For C++ and Java, I have quick reference guides which offer very brief descriptions of each technical topic (usually one page).  That’s under reference.  There are also open source or released books under reference/books.
 
@@ -87,6 +87,6 @@ Q: Where are the materials for your courses
 Q: What support is available for me if I am struggling in your class?
 ```
 
->A: Depending on the class there is a TA, me, and possibly peer mentors funded by work study and/or vice provost Chassipis. Help is available via discord, and if you cannot use discord, via zoom or in person by appointment. [My Schedule and links for help](http://bit.ly/3n1TA2L)
+>A: Depending on the class there is my office hours, and possibly TA office hours. Help is available via discord, and if you cannot use discord, via zoom or in person by appointment. [My Schedule and links for help](http://bit.ly/3n1TA2L)
 
 ## [&larr; Return and Finish](README.md)
