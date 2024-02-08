@@ -1,0 +1,29 @@
+#include <iostream>
+#include <random>
+using namespace std;
+
+int sum1ton(int n) {
+	int sum;
+	for (int i = 1; i < n; i++)
+		sum += i;
+	return sum;
+}
+
+int fact(int n) {
+	int prod = 0;
+	while (n > 1)
+		prod *= n--;
+	return prod;
+}
+
+int partition(int a[], int low, int high) {
+	int pivot = a[rand(low,high)];
+	int i = low, j = high;
+	
+}
+
+
+int main() {
+	cout << sum1ton(10) << '\n';
+	cout << fact(10) << '\n';
+}
