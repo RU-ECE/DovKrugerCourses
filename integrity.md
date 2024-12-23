@@ -4,7 +4,7 @@
 
 Any cheating detected results in a zero for the entire assignment. In the case of a major test, this may mean that cheating makes it mathematically impossible to pass the class.
 
-- All homework, labs, projects must be typed by you and may not be copied.
+- All homework, labs, projects must be typed by you and may not be copied. Additionally, you must be capable of describing what you did, if asked.
 - For group homework, all people must contribute. It is cheating to take credit for code which you had no hand in creating.
 - It is acceptable to get help, even line by line on homework, but
    * You must understand what you wrote by the end
@@ -23,7 +23,4 @@ The following procedures apply to quizzes and exams for all my courses. As the i
 
 * Students are not allowed to work with or talk to other students during quizzes and/or exams.
 
-* Cell phones must be put away. If leaving to the bathroom, drop your cellphone with the instructor.
-
-
-
+* Cell phones must be put away. If leaving to the bathroom, leave your cellphone with the instructor or proctor.
