@@ -5,6 +5,22 @@ require various software tools. This single file contains a number of
 packages. You may not need to install them all, which ones you need
 depend on the course. Please check with the syllabus of your course.
 
+## Learning Developer Skills
+
+Many courses will require using a standard Unix set of tools. This can be typing shell commands, or using build tools such as make, cmake, etc.
+Of course if you are taking a course involving high-performance coding you will need to know C/C++, or possibly Rust going forward.
+If you doubt your knowledge and feel unprepared, here are some resources to help you.
+
+* [Curate Unix Commands (by Ritchie Cahill and Dov Kruger)](https://github.com/LinuxCrashCourse/LinuxCrashCourse)
+* [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+* [GNU Make Tutorial](https://makefiletutorial.com/)
+* [Git Tutorial](https://git-scm.com/book/en/v2)
+* Resources from my C++ Course
+  - [A C++ self-test that you can compile and run](https://github.com/StevensDeptECE/CPE553-CPP/blob/master/selftest/languagesummaryquiz.cc)
+  - [A set of C++ bugs from easy to extremely hard](https://github.com/StevensDeptECE/CPE553-CPP/tree/master/BUGS)
+  - [The notes from my C++ course summarizing each topic succinctly](https://github.com/StevensDeptECE/CPE553-CPP/blob/master/C%2B%2B_coursenotes_2022F.pdf)
+* [Rust Tutorial](https://doc.rust-lang.org/book/title-page.html)
+
 ## VSCode
 
 Microsoft VSCode is mostly open source (not fully). It has a huge variety of plugins. As a general text editor and Integrated Development Environment (IDE) it has a number of advantages and disadvantages.
@@ -15,8 +31,8 @@ Microsoft VSCode is mostly open source (not fully). It has a huge variety of plu
 * Codeium plugin provides rudimentary AI help, not as good as others
 
 * The [download link](https://code.visualstudio.com/download)
-* [Windows script to install recommended plugins]()
-* [Linux script to install recommended plugins]()
+* [Windows script to install recommended plugins](https://github.com/RU-ECE/DovKrugerCourses/blob/main/files/vscodeinstructions/install_extensions_locally.bat)
+* [Linux script to install recommended plugins](https://github.com/RU-ECE/DovKrugerCourses/blob/main/files/vscodeinstructions/install_extensions_locally.sh)
 
 ## Cursor
 
@@ -39,6 +55,8 @@ If you are coding in windows and I require linux tools, one of the easiest ways 
 WSL2 can be used to develop in a linux environment on a windows machine, including graphics. This is quite useful, as all other attempts to port linux tools to windows involve weird little issues.
 
 [WSL INSTALL](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+Since WSL is Ubuntu Linux under windows, anything you install can follow instructions for Ubuntu. There may be some weird problems with graphics since WSL is operating in some kind of virtual machine under windows, but it should mostly work.
 
 ## Windows: MSYS2
 
@@ -84,6 +102,10 @@ Mac uses clang++, it is difficult and complicated to install g++ so not covered 
 For windows or linux, we are going to assume g++ which has better
 low-level support for assembler.
 
+```bash
+sudo apt install g++
+```
+
 ## gdb and cgdb
 
 If you program, you will need to debug. gdb is the low level debugger
@@ -96,14 +118,15 @@ nothing else will.
 
 ```bash
 sudo apt install gdb # on ubuntu and popos linux
+sudo apt install cgdb # Better and worse than gdb
 ```
 
 gdb has one notable annoying problem. Every time the program prints,
 it ruins the format of the screen, and you have to type control-L to
 refresh to see the correct current screen, but that wipes out the
 output that scrolled data. There is a different debugger, cgdb with
-improved graphics, but it is somewhat different so good for C/C++
-code, not as good for looking at assembly-level.
+improved graphics, fixing the annoying refresh bug but with different low-level commands
+so good for C/C++ code, not as good for looking at assembly-level.
 
 Also, cgdb has screen problems of its own on some linuxes. Try it and see if it works for you.
 
@@ -128,6 +151,18 @@ and and with -dev but not all, and "freeglut3" is an example of stupid
 naming that persists.
 
 ## Vulkan
+
+Vulkan is the new OpenGL. It's a bit more complicated to use, but it's the future.
+Supported on all major platforms except for Apple which initially supported it but then reneged.
+
+Vulkan is a low-level API, so you can't just use it like OpenGL. You need to write a lot more code.
+The advantage is that it can be much more efficient. For example, if you just want to draw in 2d,
+or you want to write code running on the GPU, Vulkan provides complete control over the pipeline.
+
+## NVIDIA CUDA
+
+## AMD ROCm HIP
+
 
 ## Image Libraries
 
