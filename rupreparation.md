@@ -131,7 +131,7 @@ so good for C/C++ code, not as good for looking at assembly-level.
 Also, cgdb has screen problems of its own on some linuxes. Try it and see if it works for you.
 
 ```bash
-sudo apt isntall cgdb
+sudo apt install cgdb
 ```
 
 ## OpenGL and windowing libraries
